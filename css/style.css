@@ -1,0 +1,51 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
+html,
+body {
+    height: 100%
+  }
+
+  button {
+    background-color: #5276d4;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+    border-radius:20px;
+}
+
+button:hover {
+opacity: 0.6;
+}
+
+input[type=text], input[type=password], input[type=file], select, input[type=date], input[type=number], input[type=tel], input[type=email], input[type=search]{
+    width: 100%;
+    padding: 12px 20px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #5276d4;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  h1{
+    text-align:center;color:#5276d4;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+  }
+  a:hover{
+    opacity: 0.5;
+  }
+  label{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2e2e2e;
+  }

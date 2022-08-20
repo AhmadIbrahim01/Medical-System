@@ -1,0 +1,30 @@
+.bordb{
+    border-bottom: 1px solid rgb(23, 74, 168);
+    width: 250px;
+}
+
+.bord{
+    border: 1px solid rgb(23, 74, 168);
+    width: 57%;
+    margin: auto auto;
+    background-color: rgba(204, 204, 204, 0.219);
+    box-shadow: 0 0 10px rgb(23, 74, 168);
+}
+
+.formus{
+    padding: 30px;
+}
+
+.margins{
+    margin-left: 280px;
+}
+
+.margins2{
+    margin-left: 50px;
+}
+
+.red {
+	color: red;
+	font-family: poppins;
+	font-size: 15px;
+}

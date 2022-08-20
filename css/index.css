@@ -1,0 +1,105 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
+html,
+body {
+  height: 100%
+}
+    #one {
+  background-color: #a710ab;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.two { 
+  background-color: #a710ab;
+  padding: 20px;
+  border-radius: 30px;
+  width: 80%;
+  font-size: 30px;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.three { 
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.five {
+    width: 60%;
+  background-color: #5276d4;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 20px;
+  opacity: 1;
+  transition: 1s;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.five:hover {opacity: 0.6}
+
+.doctorimage{
+    width: 100%;
+    height:450px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    left:10px;
+    bottom:50px;
+}
+.medimg{
+    width: 80%;
+    position: relative;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    bottom:90px;
+}
+.circle1{
+  background-color: #a710ab;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position:relative;
+    top: 100px;
+    opacity:.5;
+}
+.circle2{
+  background-color: yellow;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position:relative;
+    bottom: 120px;
+    left: 250px;
+    opacity:.5;
+}
+.rectangle{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #92c9ff;
+}
+.square {
+  height: 180px;
+  width: 180px;
+  background-color: #eee;
+  border-radius: 30px;
+  border-style: outset;}
+  .fourimg{
+    display: block; margin-left:auto; margin-right:auto;
+  }
+  .fourp{
+    text-align: center; font-weight:bold;
+  }
